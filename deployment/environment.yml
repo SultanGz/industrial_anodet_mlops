@@ -1,0 +1,12 @@
+name: azureml-defaults
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - azureml-core
+    - azureml-mlflow
+    - mlflow
+    - steps
